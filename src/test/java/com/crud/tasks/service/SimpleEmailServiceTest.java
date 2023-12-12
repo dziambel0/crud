@@ -24,7 +24,7 @@ class SimpleEmailServiceTest {
     @Test
     public void souldSendEmail(){
         //Given
-        Mail mail = new Mail("test@test.com", "Test", "Test message", null);
+        Mail mail = new Mail("test@test.com", "Test", "Test message");
 
         //Whem
         simpleEmailService.send(mail);
